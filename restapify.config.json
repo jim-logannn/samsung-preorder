@@ -1,0 +1,5 @@
+{
+  "rootDir": "./restapify/api",
+  "publicPath": "mockAPI/",
+  "port": 6768
+}

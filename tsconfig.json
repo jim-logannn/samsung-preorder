@@ -1,0 +1,52 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+
+    "baseUrl": ".",
+    "outDir": "./ts_build",
+
+    "esModuleInterop": true,
+    "jsx": "react",
+    "lib": ["es6", "dom"],
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+
+    "target": "es5",
+    /*
+		"types": [
+			"googlemaps"
+		],*/
+    "paths": {
+      "@bootstrap-styled/css-mixins/lib/breakpoints": [
+        "custom_typings/@bootstrap-styled/css-mixins/lib/breakpoints"
+      ],
+      "react-use-dimensions": ["custom_typings/react-use-dimensions"],
+      "react-use-dimensions/types": [
+        "custom_typings/react-use-dimensions/types"
+      ],
+      "@smt/component/*": ["src/com/smartone/component/*"],
+      "@smt/context/*": ["src/com/smartone/context/*"],
+      "@smt/hook/*": ["src/com/smartone/hook/*"],
+      "@smt/locale/*": ["src/com/smartone/locale/*"],
+      "@smt/theme/*": ["src/com/smartone/theme/*"],
+      "@smt/util/*": ["src/com/smartone/util/*"],
+      "@smt/page/*": ["src/com/smartone/page/*"],
+      "@smt/type/*": ["src/com/smartone/type/*"],
+      "@smt/app/*": ["src/app/*"],
+      "@smt/*": ["src/com/smartone/*"],
+			"@/*": ["src/*"]
+    },
+    "sourceMap": false,
+    "strictNullChecks": true,
+    "plugins": [
+      {
+        "name": "typescript-styled-plugin"
+      }
+    ]
+  },
+
+  "include": ["./src/**/*"]
+}

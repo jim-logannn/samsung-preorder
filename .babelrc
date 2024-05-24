@@ -1,0 +1,88 @@
+{
+	"env": {
+		"development": {
+			"plugins": [
+				[
+					"babel-plugin-import",
+					{
+					  "libraryName": "@material-ui/core",
+					  "libraryDirectory": "esm",
+					  "camel2DashComponentName": false
+					},
+					"core"
+				],
+				[
+					"babel-plugin-import",
+					{
+						"libraryName": "@material-ui/icons",
+						"libraryDirectory": "esm",
+						"camel2DashComponentName": false
+					},
+					"icons"
+				],
+				[
+					"babel-plugin-styled-components",
+					{
+						"displayName": true,
+						"minify": false,
+      					"transpileTemplateLiterals": false
+					}
+				],
+				[	
+					"react-intl",
+					{
+						"idInterpolationPattern": "[sha512:contenthash:base64:6]",
+						"extractFromFormatMessageCall": true,
+						"ast": true
+					}
+				]
+			],
+			"presets": [
+				"@babel/preset-env",
+				"@babel/preset-react"
+			],
+			"babelrcRoots": [".", "./subModules/h5gbb-portal"]
+		},
+		"production": {
+			"plugins": [
+				[
+					"babel-plugin-import",
+					{
+					  "libraryName": "@material-ui/core",
+					  "libraryDirectory": "esm",
+					  "camel2DashComponentName": false
+					},
+					"core"
+				],
+				[
+					"babel-plugin-import",
+					{
+						"libraryName": "@material-ui/icons",
+						"libraryDirectory": "esm",
+						"camel2DashComponentName": false
+					},
+					"icons"
+				],
+				[
+					"babel-plugin-styled-components",
+					{
+						"displayName": false
+					}
+				],
+				[	
+					"react-intl",
+					{
+						"idInterpolationPattern": "[sha512:contenthash:base64:6]",
+						"extractFromFormatMessageCall": true,
+						"ast": true
+					}
+				]
+			],
+			"presets": [
+				"@babel/preset-env",
+				"@babel/preset-react"
+			],
+			"babelrcRoots": [".", "subModules/*"]
+		}
+	}
+}

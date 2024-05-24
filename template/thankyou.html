@@ -1,0 +1,1292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+	<script src="https://www.smartone.com/JS_V3/jquery.min.js"></script>
+	<style>
+		@font-face {
+			font-family: 'titling-gothic-fb-condensed';
+			src: url("https://webstage7a.smartone.com/Register_ServicePlan/CSS/fonts/tgfb_condensed_medium.eot");
+			src: url("https://webstage7a.smartone.com/Register_ServicePlan/CSS/fonts/tgfb_condensed_medium.eot?#iefix") format("embedded-opentype"), url("https://webstage7a.smartone.com/Register_ServicePlan/CSS/fonts/tgfb_condensed_medium.woff2") format("woff2"), url("https://webstage7a.smartone.com/Register_ServicePlan/CSS/fonts/tgfb_condensed_medium.woff") format("woff");
+			font-weight: 500;
+			font-style: normal
+		}
+
+		@font-face {
+			font-family: 'titling-gothic-fb-narrow';
+			src: url("https://webstage7a.smartone.com/Register_ServicePlan/CSS/fonts/tgfb_narrow_medium.eot");
+			src: url("https://webstage7a.smartone.com/Register_ServicePlan/CSS/fonts/tgfb_narrow_medium.eot?#iefix") format("embedded-opentype"), url("https://webstage7a.smartone.com/Register_ServicePlan/CSS/fonts/tgfb_narrow_medium.woff2") format("woff2"), url("https://webstage7a.smartone.com/Register_ServicePlan/CSS/fonts/tgfb_narrow_medium.woff") format("woff");
+			font-weight: 500;
+			font-style: normal
+		}
+
+		@font-face {
+			font-family: 'titling-gothic-fb-narrow';
+			src: url("https://webstage7a.smartone.com/Register_ServicePlan/CSS/fonts/tgfb_narrow_regular.eot");
+			src: url("https://webstage7a.smartone.com/Register_ServicePlan/CSS/fonts/tgfb_narrow_regular.eot?#iefix") format("embedded-opentype"), url("https://webstage7a.smartone.com/Register_ServicePlan/CSS/fonts/tgfb_narrow_regular.woff2") format("woff2"), url("https://webstage7a.smartone.com/Register_ServicePlan/CSS/fonts/tgfb_narrow_regular.woff") format("woff");
+			font-weight: 300;
+			font-style: normal
+		}
+
+		@font-face {
+			font-family: 'NotoSansCondBold';
+			src: url("https://webstage7a.smartone.com/CSS_V3/smt_nav_pack/css/fonts/notosans_extra_condensed_bold.eot");
+			src: url("https://webstage7a.smartone.com/CSS_V3/smt_nav_pack/css/fonts/notosans_extra_condensed_bold.eot?#iefix") format("embedded-opentype"), url("https://webstage7a.smartone.com/CSS_V3/smt_nav_pack/css/fonts/notosans_extra_condensed_bold.woff2") format("woff2"), url("https://webstage7a.smartone.com/CSS_V3/smt_nav_pack/css/fonts/notosans_extra_condensed_bold.woff") format("woff");
+			font-weight: 700;
+			font-style: normal
+		}
+
+		html, body {
+			font-size: 62.5%;
+			font-family: "titling-gothic-fb-narrow", 'Noto Sans', 'Noto Sans TC', "MHei", "微軟正黑體", "Microsoft JhengHei", sans-serif;
+			font-weight: 300;
+			background: #E9E9E9;
+			margin-left: 0;
+			margin-right: 0;
+		}
+
+		html[lang='zh-hk'] body {
+			font-family: 'Noto Sans', 'Noto Sans TC', "MHei", "微軟正黑體", "Microsoft JhengHei", sans-serif;
+			font-weight: 400;
+		}
+	</style>
+</head>
+
+<body>
+    <div id="app"></div>
+    <div id="resource" style="display:none;">
+        <div class="inbase-order-important-notes-section" id="terms-general">
+            <div data-toggle="collapse" data-target="#inbase-order__important-notes" aria-expanded="false" aria-controls="collapse" class="inbase-order__collapse-terms"><div class="inbase-order__collapse-icon"></div>important note</div>
+            <div id="inbase-order__important-notes" class="collapse">
+                <div class="inbase-order__important-notes__content">
+                    <div class="inbase-order__important-notes__group">
+                        <ul>
+                            <li>Internet experience can vary due to factors such as the relative position between user and the base stations, the download server resources, Internet traffic conditions, the number of users, users' devices and other factors that may arise.</li>
+                            <li>The plan includes unlimited 5G data. Subjected to FUP (Fair Usage Policy).  For details, please visit <a href='https://www.smartone.com/other/english/TC_WB007A.pdf' target='_blank'>T&amp;C WB007A<img align='top' border='0' src='https://www.smartone.com/common/icon-pdf.png'></a>.</li>
+                            <li>Customer is required to choose credit card for payment method.</li>
+                            <li>Customers are required to make 1-month service and 5G Broadband service equipment rental (if applicable) service fee prepayment.</li>
+                            <li>Customer who registers the Services for the first time is entitled to a 30-Day FREE Trial and Return Guarantee period commencing from the service activation date of the designated service plan of the Services. If the Customer cancels the Service(s)/Service Plan(s) within the 30-Day FREE Trial and Return Guarantee period, the Customer is not required to pay the fee for the Service Plan and 5G Broadband service equipment rental and refund of fee paid by customer for purchasing 5G Broadband service equipment shall be arranged upon return of the 5G Broadband service equipment to the Company.</li>
+                            <li>Customers can enjoy free maintenance of the leased equipment during the service period. If exceptions are required for maintenance due to specified circumstances, the company will charge customers additional maintenance fees under this clause at the current rate. After the expiry of the contract, the Customer shall at its own risk and expense return the Rental Equipment to the Company within fourteen (14) days after termination of the Services in the same condition as when delivered to the Customer ordinary fair wear and tear excepted. If the Customer fails to return 5G Broadband service equipment rented from the Company or if such equipment is damaged, Company will charge Customer Maintenance fee at the rates published by the Company (please refer to Terms and Conditions of SmarTone Home 5G Broadband Device Rental Service Plan).</li>
+                            <li>At the end of the contract, the customer will be charged at the prevailing plan price if the customer continues to use the service.</li>
+                            <li>Our Company reserves the right of final decision relating to the promotion and any dispute thereof, and may change the Terms and Conditions without prior notice.</li>
+                            <li>For the detail of "Home 5G Broadband referral program", please click <a href='https://www.smartone.com/en/H5GBB-Referral-Program/' target='_blank'>here</a>.</li>
+                        </ul>			
+                    </div>
+                </div>	
+            </div>
+        </div>
+        <div class="inbase-order-important-notes-section" id="terms-5GABP">
+            <div data-toggle="collapse" data-target="#inbase-order__important-notes" aria-expanded="false" aria-controls="collapse" class="inbase-order__collapse-terms"><div class="inbase-order__collapse-icon"></div>5GABP important note</div>
+            <div id="inbase-order__important-notes" class="collapse">
+                <div class="inbase-order__important-notes__content">
+                    <div class="inbase-order__important-notes__group">
+                        <ul>
+                            <li>Internet experience can vary due to factors such as the relative position between user and the base stations, the download server resources, Internet traffic conditions, the number of users, users' devices and other factors that may arise.</li>
+                            <li>The plan includes unlimited 5G data. Subjected to FUP (Fair Usage Policy).  For details, please visit <a href='https://www.smartone.com/other/english/TC_WB007A.pdf' target='_blank'>T&amp;C WB007A<img align='top' border='0' src='https://www.smartone.com/common/icon-pdf.png'></a>.</li>
+                            <li>Customer is required to choose credit card for payment method.</li>
+                            <li>Customers are required to make 1-month service and 5G Broadband service equipment rental (if applicable) service fee prepayment.</li>
+                            <li>Customer who registers the Services for the first time is entitled to a 30-Day FREE Trial and Return Guarantee period commencing from the service activation date of the designated service plan of the Services. If the Customer cancels the Service(s)/Service Plan(s) within the 30-Day FREE Trial and Return Guarantee period, the Customer is not required to pay the fee for the Service Plan and 5G Broadband service equipment rental and refund of fee paid by customer for purchasing 5G Broadband service equipment shall be arranged upon return of the 5G Broadband service equipment to the Company.</li>
+                            <li>Customers can enjoy free maintenance of the leased equipment during the service period. If exceptions are required for maintenance due to specified circumstances, the company will charge customers additional maintenance fees under this clause at the current rate. After the expiry of the contract, the Customer shall at its own risk and expense return the Rental Equipment to the Company within fourteen (14) days after termination of the Services in the same condition as when delivered to the Customer ordinary fair wear and tear excepted. If the Customer fails to return 5G Broadband service equipment rented from the Company or if such equipment is damaged, Company will charge Customer Maintenance fee at the rates published by the Company (please refer to Terms and Conditions of SmarTone Home 5G Broadband Device Rental Service Plan).</li>
+                            <li>At the end of the contract, the customer will be charged at the prevailing plan price if the customer continues to use the service.</li>
+                            <li>Our Company reserves the right of final decision relating to the promotion and any dispute thereof, and may change the Terms and Conditions without prior notice.</li>
+                            <li>For the detail of "Home 5G Broadband referral program", please click <a href='https://www.smartone.com/en/H5GBB-Referral-Program/' target='_blank'>here</a>.</li>
+                        </ul>			
+                    </div>
+                </div>	
+            </div>
+        </div>
+    </div>
+	<script defer>
+
+const handset_data = {
+  "handset_data": {
+    
+    "CO14_MN128": {
+      "capacity": 128,
+      "color_chi": "午夜暗色",
+      "color_eng": "Midnight",
+      "img_prefix": "iphone14-midlight",
+      "model_code": "CO14_MN128",
+      "name_chi": "iPhone 14",
+      "name_eng": "iPhone 14",
+      "product_code": "MPU93ZA/A",
+      "price": 6899,
+      "screen_size": 6.1,
+      "hsid": 3358
+    },
+    "CO14_SL128": {
+      "capacity": 128,
+      "color_chi": "星光色",
+      "color_eng": "Starlight",
+      "img_prefix": "iphone14-starlight",
+      "model_code": "CO14_SL128",
+      "name_chi": "iPhone 14",
+      "name_eng": "iPhone 14",
+      "product_code": "MPUJ3ZA/A",
+      "price": 6899,
+      "screen_size": 6.1,
+      "hsid": 3358 
+    },
+  "CO14_PU128": {
+      "capacity": 128,
+      "color_chi": "紫色",
+      "color_eng": "Purple",
+      "img_prefix": "iphone14-purple",
+      "model_code": "CO14_PU128",
+      "name_chi": "iPhone 14",
+      "name_eng": "iPhone 14",
+      "product_code": "MPUW3ZA/A",
+      "price": 6899,
+      "screen_size": 6.1,
+      "hsid": 3358
+    },
+    "CO14_RD128": {
+      "capacity": 128,
+      "color_chi": "(PRODUCT)RED&trade;",
+      "color_eng": "(PRODUCT)RED&trade;",
+      "img_prefix": "iphone14-red",
+      "model_code": "CO14_RD128",
+      "name_chi": "iPhone 14",
+      "name_eng": "iPhone 14",
+      "product_code": "MPV63ZA/A",
+      "price": 6899,
+      "screen_size": 6.1,
+      "hsid": 3358
+    },
+    "CO14_BL128": {
+      "capacity": 128,
+      "color_chi": "藍色",
+      "color_eng": "Blue",
+      "img_prefix": "iphone14-blue",
+      "model_code": "CO14_BL128",
+      "name_chi": "iPhone 14",
+      "name_eng": "iPhone 14",
+      "product_code": "MPVG3ZA/A",
+      "price": 6899,
+      "screen_size": 6.1,
+      "hsid": 3358
+    },
+  "CO14_MN256": {
+      "capacity": 256,
+      "color_chi": "午夜暗色",
+      "color_eng": "Midnight",
+      "img_prefix": "iphone14-midlight",
+      "model_code": "CO14_MN256",
+      "name_chi": "iPhone 14",
+      "name_eng": "iPhone 14",
+      "product_code": "MPVU3ZA/A",
+      "price": 7699,
+      "screen_size": 6.1,
+      "hsid": 3358
+    },
+    "CO14_SL256": {
+      "capacity": 256,
+      "color_chi": "星光色",
+      "color_eng": "Starlight",
+      "img_prefix": "iphone14-starlight",
+      "model_code": "CO14_SL256",
+      "name_chi": "iPhone 14",
+      "name_eng": "iPhone 14",
+      "product_code": "MPW13ZA/A",
+      "price": 7699,
+      "screen_size": 6.1,
+      "hsid": 3358 
+    },
+  "CO14_PU256": {
+      "capacity": 256,
+      "color_chi": "紫色",
+      "color_eng": "Purple",
+      "img_prefix": "iphone14-purple",
+      "model_code": "CO14_PU256",
+      "name_chi": "iPhone 14",
+      "name_eng": "iPhone 14",
+      "product_code": "MPW73ZA/A",
+      "price": 7699,
+      "screen_size": 6.1,
+      "hsid": 3358
+    },
+    "CO14_RD256": {
+      "capacity": 256,
+      "color_chi": "(PRODUCT)RED&trade;",
+      "color_eng": "(PRODUCT)RED&trade;",
+      "img_prefix": "iphone14-red",
+      "model_code": "CO14_RD256",
+      "name_chi": "iPhone 14",
+      "name_eng": "iPhone 14",
+      "product_code": "MPWE3ZA/A",
+      "price": 7699,
+      "screen_size": 6.1,
+      "hsid": 3358
+    },
+    "CO14_BL256": {
+      "capacity": 256,
+      "color_chi": "藍色",
+      "color_eng": "Blue",
+      "img_prefix": "iphone14-blue",
+      "model_code": "CO14_BL256",
+      "name_chi": "iPhone 14",
+      "name_eng": "iPhone 14",
+      "product_code": "MPWL3ZA/A",
+      "price": 7699,
+      "screen_size": 6.1,
+      "hsid": 3358
+    },
+    "CO14_MN512": {
+      "capacity": 512,
+      "color_chi": "午夜暗色",
+      "color_eng": "Midnight",
+      "img_prefix": "iphone14-midlight",
+      "model_code": "CO14_MN512",
+      "name_chi": "iPhone 14",
+      "name_eng": "iPhone 14",
+      "product_code": "MPWT3ZA/A",
+      "price": 9399,
+      "screen_size": 6.1,
+      "hsid": 3358
+    },
+    "CO14_SL512": {
+      "capacity": 512,
+      "color_chi": "星光色",
+      "color_eng": "Starlight",
+      "img_prefix": "iphone14-starlight",
+      "model_code": "CO14_SL512",
+      "name_chi": "iPhone 14",
+      "name_eng": "iPhone 14",
+      "product_code": "MPX03ZA/A",
+      "price": 9399,
+      "screen_size": 6.1,
+      "hsid": 3358 
+    },
+  "CO14_PU512": {
+      "capacity": 512,
+      "color_chi": "紫色",
+      "color_eng": "Purple",
+      "img_prefix": "iphone14-purple",
+      "model_code": "CO14_PU512",
+      "name_chi": "iPhone 14",
+      "name_eng": "iPhone 14",
+      "product_code": "MPX63ZA/A",
+      "price": 9399,
+      "screen_size": 6.1,
+      "hsid": 3358
+    },
+    "CO14_RD512": {
+      "capacity": 512,
+      "color_chi": "(PRODUCT)RED&trade;",
+      "color_eng": "(PRODUCT)RED&trade;",
+      "img_prefix": "iphone14-red",
+      "model_code": "CO14_RD512",
+      "name_chi": "iPhone 14",
+      "name_eng": "iPhone 14",
+      "product_code": "MPXD3ZA/A",
+      "price": 9399,
+      "screen_size": 6.1,
+      "hsid": 3358
+    },
+    "CO14_BL512": {
+      "capacity": 512,
+      "color_chi": "藍色",
+      "color_eng": "Blue",
+      "img_prefix": "iphone14-blue",
+      "model_code": "CO14_BL512",
+      "name_chi": "iPhone 14",
+      "name_eng": "iPhone 14",
+      "product_code": "MPXK3ZA/A",
+      "price": 9399,
+      "screen_size": 6.1,
+      "hsid": 3358
+    },
+    "CO14_PLUS_MN128": {
+      "capacity": 128,
+      "color_chi": "午夜暗色",
+      "color_eng": "Midnight",
+      "img_prefix": "iphone14-plus-midlight",
+      "model_code": "CO14_PLUS_MN128",
+      "name_chi": "iPhone 14 Plus",
+      "name_eng": "iPhone 14 Plus",
+      "product_code": "MQ353ZA/A",
+      "price": 7699,
+      "screen_size": 6.7,
+      "hsid": 3358
+    },
+    "CO14_PLUS_SL128": {
+      "capacity": 128,
+      "color_chi": "星光色",
+      "color_eng": "Starlight",
+      "img_prefix": "iphone14-plus-starlight",
+      "model_code": "CO14_PLUS_SL128",
+      "name_chi": "iPhone 14 Plus",
+      "name_eng": "iPhone 14 Plus",
+      "product_code": "MQ363ZA/A",
+      "price": 7699,
+      "screen_size": 6.7,
+      "hsid": 3358 
+    },
+  "CO14_PLUS_PU128": {
+      "capacity": 128,
+      "color_chi": "紫色",
+      "color_eng": "Purple",
+      "img_prefix": "iphone14-plus-purple",
+      "model_code": "CO14_PLUS_PU128",
+      "name_chi": "iPhone 14 Plus",
+      "name_eng": "iPhone 14 Plus",
+      "product_code": "MQ373ZA/A",
+      "price": 7699,
+      "screen_size": 6.7,
+      "hsid": 3358
+    },
+    "CO14_PLUS_RD128": {
+      "capacity": 128,
+      "color_chi": "(PRODUCT)RED&trade;",
+      "color_eng": "(PRODUCT)RED&trade;",
+      "img_prefix": "iphone14-plus-red",
+      "model_code": "CO14_PLUS_RD128",
+      "name_chi": "iPhone 14 Plus",
+      "name_eng": "iPhone 14 Plus",
+      "product_code": "MQ393ZA/A",
+      "price": 7699,
+      "screen_size": 6.7,
+      "hsid": 3358
+    },
+    "CO14_PLUS_BL128": {
+      "capacity": 128,
+      "color_chi": "藍色",
+      "color_eng": "Blue",
+      "img_prefix": "iphone14-plus-blue",
+      "model_code": "CO14_PLUS_BL128",
+      "name_chi": "iPhone 14 Plus",
+      "name_eng": "iPhone 14 Plus",
+      "product_code": "MQ3A3ZA/A",
+      "price": 7699,
+      "screen_size": 6.7,
+      "hsid": 3358
+    },
+    "CO14_PLUS_MN256": {
+      "capacity": 256,
+      "color_chi": "午夜暗色",
+      "color_eng": "Midnight",
+      "img_prefix": "iphone14-plus-midlight",
+      "model_code": "CO14_PLUS_MN256",
+      "name_chi": "iPhone 14 Plus",
+      "name_eng": "iPhone 14 Plus",
+      "product_code": "MQ3C3ZA/A",
+      "price": 8499,
+      "screen_size": 6.7,
+      "hsid": 3358
+    },
+    "CO14_PLUS_SL256": {
+      "capacity": 256,
+      "color_chi": "星光色",
+      "color_eng": "Starlight",
+      "img_prefix": "iphone14-plus-starlight",
+      "model_code": "CO14_PLUS_SL256",
+      "name_chi": "iPhone 14 Plus",
+      "name_eng": "iPhone 14 Plus",
+      "product_code": "MQ3D3ZA/A",
+      "price": 8499,
+      "screen_size": 6.7,
+      "hsid": 3358 
+    },
+  "CO14_PLUS_PU256": {
+      "capacity": 256,
+      "color_chi": "紫色",
+      "color_eng": "Purple",
+      "img_prefix": "iphone14-plus-purple",
+      "model_code": "CO14_PLUS_PU256",
+      "name_chi": "iPhone 14 Plus",
+      "name_eng": "iPhone 14 Plus",
+      "product_code": "MQ3E3ZA/A",
+      "price": 8499,
+      "screen_size": 6.7,
+      "hsid": 3358
+    },
+    "CO14_PLUS_RD256": {
+      "capacity": 256,
+      "color_chi": "(PRODUCT)RED&trade;",
+      "color_eng": "(PRODUCT)RED&trade;",
+      "img_prefix": "iphone14-plus-red",
+      "model_code": "CO14_PLUS_RD256",
+      "name_chi": "iPhone 14 Plus",
+      "name_eng": "iPhone 14 Plus",
+      "product_code": "MQ3F3ZA/A",
+      "price": 8499,
+      "screen_size": 6.7,
+      "hsid": 3358
+    },
+    "CO14_PLUS_BL256": {
+      "capacity": 256,
+      "color_chi": "藍色",
+      "color_eng": "Blue",
+      "img_prefix": "iphone14-plus-blue",
+      "model_code": "CO14_PLUS_BL256",
+      "name_chi": "iPhone 14 Plus",
+      "name_eng": "iPhone 14 Plus",
+      "product_code": "MQ3G3ZA/A",
+      "price": 8499,
+      "screen_size": 6.7,
+      "hsid": 3358
+    },
+    "CO14_PLUS_MN512": {
+      "capacity": 512,
+      "color_chi": "午夜暗色",
+      "color_eng": "Midnight",
+      "img_prefix": "iphone14-plus-midlight",
+      "model_code": "CO14_PLUS_MN512",
+      "name_chi": "iPhone 14 Plus",
+      "name_eng": "iPhone 14 Plus",
+      "product_code": "MQ3H3ZA/A",
+      "price": 10199,
+      "screen_size": 6.7,
+      "hsid": 3358
+    },
+    "CO14_PLUS_SL512": {
+      "capacity": 512,
+      "color_chi": "星光色",
+      "color_eng": "Starlight",
+      "img_prefix": "iphone14-plus-starlight",
+      "model_code": "CO14_PLUS_SL512",
+      "name_chi": "iPhone 14 Plus",
+      "name_eng": "iPhone 14 Plus",
+      "product_code": "MQ3J3ZA/A",
+      "price": 10199,
+      "screen_size": 6.7,
+      "hsid": 3358 
+    },
+  "CO14_PLUS_PU512": {
+      "capacity": 512,
+      "color_chi": "紫色",
+      "color_eng": "Purple",
+      "img_prefix": "iphone14-plus-purple",
+      "model_code": "CO14_PLUS_PU512",
+      "name_chi": "iPhone 14 Plus",
+      "name_eng": "iPhone 14 Plus",
+      "product_code": "MQ3K3ZA/A",
+      "price": 10199,
+      "screen_size": 6.7,
+      "hsid": 3358
+    },
+    "CO14_PLUS_RD512": {
+      "capacity": 512,
+      "color_chi": "(PRODUCT)RED&trade;",
+      "color_eng": "(PRODUCT)RED&trade;",
+      "img_prefix": "iphone14-plus-red",
+      "model_code": "CO14_PLUS_RD512",
+      "name_chi": "iPhone 14 Plus",
+      "name_eng": "iPhone 14 Plus",
+      "product_code": "MQ3P3ZA/A",
+      "price": 10199,
+      "screen_size": 6.7,
+      "hsid": 3358
+    },
+    "CO14_PLUS_BL512": {
+      "capacity": 512,
+      "color_chi": "藍色",
+      "color_eng": "Blue",
+      "img_prefix": "iphone14-plus-blue",
+      "model_code": "CO14_PLUS_BL512",
+      "name_chi": "iPhone 14 Plus",
+      "name_eng": "iPhone 14 Plus",
+      "product_code": "MQ3Q3ZA/A",
+      "price": 10199,
+      "screen_size": 6.7,
+      "hsid": 3358
+    },
+  "CO14_PRO_SB128": {
+      "capacity": 128,
+      "color_chi": "太空黑",
+      "color_eng": "Space Black",
+      "img_prefix": "iphone14-pro-spaceblack",
+      "model_code": "CO14_PRO_SB128",
+      "name_chi": "iPhone 14 Pro",
+      "name_eng": "iPhone 14 Pro",
+      "product_code": "MPXR3ZA/A",
+      "price": 8599,
+      "screen_size": 6.1,
+      "hsid": 3359
+    },
+  "CO14_PRO_SV128": {
+      "capacity": 128,
+      "color_chi": "銀色",
+      "color_eng": "Silver",
+      "img_prefix": "iphone14-pro-silver",
+      "model_code": "CO14_PRO_SV128",
+      "name_chi": "iPhone 14 Pro",
+      "name_eng": "iPhone 14 Pro",
+      "product_code": "MPXY3ZA/A",
+      "price": 8599,
+      "screen_size": 6.1,
+      "hsid": 3359
+    },
+  "CO14_PRO_GD128": {
+      "capacity": 128,
+      "color_chi": "金色",
+      "color_eng": "Gold",
+      "img_prefix": "iphone14-pro-gold",
+      "model_code": "CO14_PRO_GD128",
+      "name_chi": "iPhone 14 Pro",
+      "name_eng": "iPhone 14 Pro",
+      "product_code": "MQ053ZA/A",
+      "price": 8599,
+      "screen_size": 6.1,
+      "hsid": 3359
+    },
+    "CO14_PRO_DP128": {
+      "capacity": 128,
+      "color_chi": "暗紫色",
+      "color_eng": "Deep Purple",
+      "img_prefix": "iphone14-pro-deeppurple",
+      "model_code": "CO14_PRO_DP128",
+      "name_chi": "iPhone 14 Pro",
+      "name_eng": "iPhone 14 Pro",
+      "product_code": "MQ0D3ZA/A",
+      "price": 8599,
+      "screen_size": 6.1,
+      "hsid": 3359
+    },
+  "CO14_PRO_SB256": {
+      "capacity": 256,
+      "color_chi": "太空黑",
+      "color_eng": "Space Black",
+      "img_prefix": "iphone14-pro-spaceblack",
+      "model_code": "CO14_PRO_SB256",
+      "name_chi": "iPhone 14 Pro",
+      "name_eng": "iPhone 14 Pro",
+      "product_code": "MQ0M3ZA/A",
+      "price": 9399,
+      "screen_size": 6.1,
+      "hsid": 3359,
+    "ret_price": {
+        "5GABP": 9399,
+        "5GABQ": 9099,
+        "5GABR": 9099,
+        "5GABS": 8699,
+        "5GABT": 8699,
+        "5GABU": 8699
+      },
+      "ret_pricelist": {
+        "5GABP": "RC1",
+        "5GABQ": "RCP",
+        "5GABR": "RCP",
+        "5GABS": "RC2",
+        "5GABT": "RC2",
+        "5GABU": "RC2"
+      }
+    },
+  "CO14_PRO_SV256": {
+      "capacity": 256,
+      "color_chi": "銀色",
+      "color_eng": "Silver",
+      "img_prefix": "iphone14-pro-silver",
+      "model_code": "CO14_PRO_SV256",
+      "name_chi": "iPhone 14 Pro",
+      "name_eng": "iPhone 14 Pro",
+      "product_code": "MQ0W3ZA/A",
+      "price": 9399,
+      "screen_size": 6.1,
+      "hsid": 3359,
+      "ret_price": {
+        "5GABP": 9399,
+        "5GABQ": 9099,
+        "5GABR": 9099,
+        "5GABS": 8699,
+        "5GABT": 8699,
+        "5GABU": 8699
+      },
+      "ret_pricelist": {
+        "5GABP": "RC1",
+        "5GABQ": "RCP",
+        "5GABR": "RCP",
+        "5GABS": "RC2",
+        "5GABT": "RC2",
+        "5GABU": "RC2"
+      }
+    },
+  "CO14_PRO_GD256": {
+      "capacity": 256,
+      "color_chi": "金色",
+      "color_eng": "Gold",
+      "img_prefix": "iphone14-pro-gold",
+      "model_code": "CO14_PRO_GD256",
+      "name_chi": "iPhone 14 Pro",
+      "name_eng": "iPhone 14 Pro",
+      "product_code": "MQ143ZA/A",
+      "price": 9399,
+      "screen_size": 6.1,
+      "hsid": 3359,
+      "ret_price": {
+        "5GABP": 9399,
+        "5GABQ": 9099,
+        "5GABR": 9099,
+        "5GABS": 8699,
+        "5GABT": 8699,
+        "5GABU": 8699
+      },
+      "ret_pricelist":  {
+        "5GABP": "RC1",
+        "5GABQ": "RCP",
+        "5GABR": "RCP",
+        "5GABS": "RC2",
+        "5GABT": "RC2",
+        "5GABU": "RC2"
+      }
+    },
+    "CO14_PRO_DP256": {
+      "capacity": 256,
+      "color_chi": "暗紫色",
+      "color_eng": "Deep Purple",
+      "img_prefix": "iphone14-pro-deeppurple",
+      "model_code": "CO14_PRO_DP256",
+      "name_chi": "iPhone 14 Pro",
+      "name_eng": "iPhone 14 Pro",
+      "product_code": "MQ1C3ZA/A",
+      "price": 9399,
+      "screen_size": 6.1,
+      "hsid": 3359,
+      "ret_price": {
+        "5GABP": 9399,
+        "5GABQ": 9099,
+        "5GABR": 9099,
+        "5GABS": 8699,
+        "5GABT": 8699,
+        "5GABU": 8699
+      },
+      "ret_pricelist": {
+        "5GABP": "RC1",
+        "5GABQ": "RCP",
+        "5GABR": "RCP",
+        "5GABS": "RC2",
+        "5GABT": "RC2",
+        "5GABU": "RC2"
+      }
+    },
+  "CO14_PRO_SB512": {
+      "capacity": 512,
+      "color_chi": "太空黑",
+      "color_eng": "Space Black",
+      "img_prefix": "iphone14-pro-spaceblack",
+      "model_code": "CO14_PRO_SB512",
+      "name_chi": "iPhone 14 Pro",
+      "name_eng": "iPhone 14 Pro",
+      "product_code": "MQ1J3ZA/A",
+      "price": 11099,
+      "screen_size": 6.1,
+      "hsid": 3359
+    },
+  "CO14_PRO_SV512": {
+      "capacity": 512,
+      "color_chi": "銀色",
+      "color_eng": "Silver",
+      "img_prefix": "iphone14-pro-silver",
+      "model_code": "CO14_PRO_SV512",
+      "name_chi": "iPhone 14 Pro",
+      "name_eng": "iPhone 14 Pro",
+      "product_code": "MQ1R3ZA/A",
+      "price": 11099,
+      "screen_size": 6.1,
+      "hsid": 3359
+    },
+  "CO14_PRO_GD512": {
+      "capacity": 512,
+      "color_chi": "金色",
+      "color_eng": "Gold",
+      "img_prefix": "iphone14-pro-gold",
+      "model_code": "CO14_PRO_GD512",
+      "name_chi": "iPhone 14 Pro",
+      "name_eng": "iPhone 14 Pro",
+      "product_code": "MQ203ZA/A",
+      "price": 11099,
+      "screen_size": 6.1,
+      "hsid": 3359
+    },
+    "CO14_PRO_DP512": {
+      "capacity": 512,
+      "color_chi": "暗紫色",
+      "color_eng": "Deep Purple",
+      "img_prefix": "iphone14-pro-deeppurple",
+      "model_code": "CO14_PRO_DP512",
+      "name_chi": "iPhone 14 Pro",
+      "name_eng": "iPhone 14 Pro",
+      "product_code": "MQ263ZA/A",
+      "price": 11099,
+      "screen_size": 6.1,
+      "hsid": 3359
+    },
+  "CO14_PRO_SB1024": {
+      "capacity": 1024,
+      "color_chi": "太空黑",
+      "color_eng": "Space Black",
+      "img_prefix": "iphone14-pro-spaceblack",
+      "model_code": "CO14_PRO_SB1024",
+      "name_chi": "iPhone 14 Pro",
+      "name_eng": "iPhone 14 Pro",
+      "product_code": "MQ2D3ZA/A",
+      "price": 12799,
+      "screen_size": 6.1,
+      "hsid": 3359
+    },
+  "CO14_PRO_SV1024": {
+      "capacity": 1024,
+      "color_chi": "銀色",
+      "color_eng": "Silver",
+      "img_prefix": "iphone14-pro-silver",
+      "model_code": "CO14_PRO_SV1024",
+      "name_chi": "iPhone 14 Pro",
+      "name_eng": "iPhone 14 Pro",
+      "product_code": "MQ2K3ZA/A",
+      "price": 12799,
+      "screen_size": 6.1,
+      "hsid": 3359
+    },
+  "CO14_PRO_GD1024": {
+      "capacity": 1024,
+      "color_chi": "金色",
+      "color_eng": "Gold",
+      "img_prefix": "iphone14-pro-gold",
+      "model_code": "CO14_PRO_GD1024",
+      "name_chi": "iPhone 14 Pro",
+      "name_eng": "iPhone 14 Pro",
+      "product_code": "MQ2R3ZA/A",
+      "price": 12799,
+      "screen_size": 6.1,
+      "hsid": 3359
+    },
+    "CO14_PRO_DP1024": {
+      "capacity": 1024,
+      "color_chi": "暗紫色",
+      "color_eng": "Deep Purple",
+      "img_prefix": "iphone14-pro-deeppurple",
+      "model_code": "CO14_PRO_DP1024",
+      "name_chi": "iPhone 14 Pro",
+      "name_eng": "iPhone 14 Pro",
+      "product_code": "MQ2Y3ZA/A",
+      "price": 12799,
+      "screen_size": 6.1,
+      "hsid": 3359
+    },
+  "CO14_PROMAX_SB128": {
+      "capacity": 128,
+      "color_chi": "太空黑",
+      "color_eng": "Space Black",
+      "img_prefix": "iphone14-promax-spaceblack",
+      "model_code": "CO14_PROMAX_SB128",
+      "name_chi": "iPhone 14 Pro Max",
+      "name_eng": "iPhone 14 Pro Max",
+      "product_code": "MQ833ZA/A",
+      "price": 9399,
+      "screen_size": 6.7,
+      "hsid": 3359
+    },
+  "CO14_PROMAX_SV128": {
+      "capacity": 128,
+      "color_chi": "銀色",
+      "color_eng": "Silver",
+      "img_prefix": "iphone14-promax-silver",
+      "model_code": "CO14_PROMAX_SV128",
+      "name_chi": "iPhone 14 Pro Max",
+      "name_eng": "iPhone 14 Pro Max",
+      "product_code": "MQ843ZA/A",
+      "price": 9399,
+      "screen_size": 6.7,
+      "hsid": 3359
+    },
+  "CO14_PROMAX_GD128": {
+      "capacity": 128,
+      "color_chi": "金色",
+      "color_eng": "Gold",
+      "img_prefix": "iphone14-promax-gold",
+      "model_code": "CO14_PROMAX_GD128",
+      "name_chi": "iPhone 14 Pro Max",
+      "name_eng": "iPhone 14 Pro Max",
+      "product_code": "MQ853ZA/A",
+      "price": 9399,
+      "screen_size": 6.7,
+      "hsid": 3359
+    },
+    "CO14_PROMAX_DP128": {
+      "capacity": 128,
+      "color_chi": "暗紫色",
+      "color_eng": "Deep Purple",
+      "img_prefix": "iphone14-promax-deeppurple",
+      "model_code": "CO14_PROMAX_DP128",
+      "name_chi": "iPhone 14 Pro Max",
+      "name_eng": "iPhone 14 Pro Max",
+      "product_code": "MQ863ZA/A",
+      "price": 9399,
+      "screen_size": 6.7,
+      "hsid": 3359
+    },
+  "CO14_PROMAX_SB256": {
+      "capacity": 256,
+      "color_chi": "太空黑",
+      "color_eng": "Space Black",
+      "img_prefix": "iphone14-promax-spaceblack",
+      "model_code": "CO14_PROMAX_SB256",
+      "name_chi": "iPhone 14 Pro Max",
+      "name_eng": "iPhone 14 Pro Max",
+      "product_code": "MQ873ZA/A",
+      "price": 10199,
+      "screen_size": 6.7,
+      "hsid": 3359,
+      "ret_price": {
+        "5GABP": 9399,
+        "5GABQ": 9099,
+        "5GABR": 9099,
+        "5GABS": 8699,
+        "5GABT": 8699,
+        "5GABU": 8699
+      },
+      "ret_pricelist":  {
+        "5GABP": "RC1",
+        "5GABQ": "RCP",
+        "5GABR": "RCP",
+        "5GABS": "RC2",
+        "5GABT": "RC2",
+        "5GABU": "RC2"
+      }
+    },
+  "CO14_PROMAX_SV256": {
+      "capacity": 256,
+      "color_chi": "銀色",
+      "color_eng": "Silver",
+      "img_prefix": "iphone14-promax-silver",
+      "model_code": "CO14_PROMAX_SV256",
+      "name_chi": "iPhone 14 Pro Max",
+      "name_eng": "iPhone 14 Pro Max",
+      "product_code": "MQ883ZA/A",
+      "price": 10199,
+      "screen_size": 6.7,
+      "hsid": 3359,
+      "ret_price": {
+        "5GABP": 9399,
+        "5GABQ": 9099,
+        "5GABR": 9099,
+        "5GABS": 8699,
+        "5GABT": 8699,
+        "5GABU": 8699
+      },
+      "ret_pricelist":  {
+        "5GABP": "RC1",
+        "5GABQ": "RCP",
+        "5GABR": "RCP",
+        "5GABS": "RC2",
+        "5GABT": "RC2",
+        "5GABU": "RC2"
+      }
+    },
+  "CO14_PROMAX_GD256": {
+      "capacity": 256,
+      "color_chi": "金色",
+      "color_eng": "Gold",
+      "img_prefix": "iphone14-promax-gold",
+      "model_code": "CO14_PROMAX_GD256",
+      "name_chi": "iPhone 14 Pro Max",
+      "name_eng": "iPhone 14 Pro Max",
+      "product_code": "MQ893ZA/A",
+      "price": 10199,
+      "screen_size": 6.7,
+      "hsid": 3359,
+      "ret_price": {
+        "5GABP": 9399,
+        "5GABQ": 9099,
+        "5GABR": 9099,
+        "5GABS": 8699,
+        "5GABT": 8699,
+        "5GABU": 8699
+      },
+      "ret_pricelist":  {
+        "5GABP": "RC1",
+        "5GABQ": "RCP",
+        "5GABR": "RCP",
+        "5GABS": "RC2",
+        "5GABT": "RC2",
+        "5GABU": "RC2"
+      }
+    },
+    "CO14_PROMAX_DP256": {
+      "capacity": 256,
+      "color_chi": "暗紫色",
+      "color_eng": "Deep Purple",
+      "img_prefix": "iphone14-promax-deeppurple",
+      "model_code": "CO14_PROMAX_DP256",
+      "name_chi": "iPhone 14 Pro Max",
+      "name_eng": "iPhone 14 Pro Max",
+      "product_code": "MQ8A3ZA/A",
+      "price": 10199,
+      "screen_size": 6.7,
+      "hsid": 3359,
+      "ret_price": {
+        "5GABP": 9399,
+        "5GABQ": 9099,
+        "5GABR": 9099,
+        "5GABS": 8699,
+        "5GABT": 8699,
+        "5GABU": 8699
+      },
+      "ret_pricelist":  {
+        "5GABP": "RC1",
+        "5GABQ": "RCP",
+        "5GABR": "RCP",
+        "5GABS": "RC2",
+        "5GABT": "RC2",
+        "5GABU": "RC2"
+      }
+    },
+  "CO14_PROMAX_SB512": {
+      "capacity": 512,
+      "color_chi": "太空黑",
+      "color_eng": "Space Black",
+      "img_prefix": "iphone14-promax-spaceblack",
+      "model_code": "CO14_PROMAX_SB512",
+      "name_chi": "iPhone 14 Pro Max",
+      "name_eng": "iPhone 14 Pro Max",
+      "product_code": "MQ8D3ZA/A",
+      "price": 11899,
+      "screen_size": 6.7,
+      "hsid": 3359
+    },
+  "CO14_PROMAX_SV512": {
+      "capacity": 512,
+      "color_chi": "銀色",
+      "color_eng": "Silver",
+      "img_prefix": "iphone14-promax-silver",
+      "model_code": "CO14_PROMAX_SV512",
+      "name_chi": "iPhone 14 Pro Max",
+      "name_eng": "iPhone 14 Pro Max",
+      "product_code": "MQ8E3ZA/A",
+      "price": 11899,
+      "screen_size": 6.7,
+      "hsid": 3359
+    },
+  "CO14_PROMAX_GD512": {
+      "capacity": 512,
+      "color_chi": "金色",
+      "color_eng": "Gold",
+      "img_prefix": "iphone14-promax-gold",
+      "model_code": "CO14_PROMAX_GD512",
+      "name_chi": "iPhone 14 Pro Max",
+      "name_eng": "iPhone 14 Pro Max",
+      "product_code": "MQ8F3ZA/A",
+      "price": 11899,
+      "screen_size": 6.7,
+      "hsid": 3359
+    },
+    "CO14_PROMAX_DP512": {
+      "capacity": 512,
+      "color_chi": "暗紫色",
+      "color_eng": "Deep Purple",
+      "img_prefix": "iphone14-promax-deeppurple",
+      "model_code": "CO14_PROMAX_DP512",
+      "name_chi": "iPhone 14 Pro Max",
+      "name_eng": "iPhone 14 Pro Max",
+      "product_code": "MQ8G3ZA/A",
+      "price": 11899,
+      "screen_size": 6.7,
+      "hsid": 3359
+    },
+  "CO14_PROMAX_SB1024": {
+      "capacity": 1024,
+      "color_chi": "太空黑",
+      "color_eng": "Space Black",
+      "img_prefix": "iphone14-promax-spaceblack",
+      "model_code": "CO14_PROMAX_SB1024",
+      "name_chi": "iPhone 14 Pro Max",
+      "name_eng": "iPhone 14 Pro Max",
+      "product_code": "MQ8H3ZA/A",
+      "price": 13599,
+      "screen_size": 6.7,
+      "hsid": 3359
+    },
+  "CO14_PROMAX_SV1024": {
+      "capacity": 1024,
+      "color_chi": "銀色",
+      "color_eng": "Silver",
+      "img_prefix": "iphone14-promax-silver",
+      "model_code": "CO14_PROMAX_SV1024",
+      "name_chi": "iPhone 14 Pro Max",
+      "name_eng": "iPhone 14 Pro Max",
+      "product_code": "MQ8J3ZA/A",
+      "price": 13599,
+      "screen_size": 6.7,
+      "hsid": 3359
+    },
+  "CO14_PROMAX_GD1024": {
+      "capacity": 1024,
+      "color_chi": "金色",
+      "color_eng": "Gold",
+      "img_prefix": "iphone14-promax-gold",
+      "model_code": "CO14_PROMAX_GD1024",
+      "name_chi": "iPhone 14 Pro Max",
+      "name_eng": "iPhone 14 Pro Max",
+      "product_code": "MQ8L3ZA/A",
+      "price": 13599,
+      "screen_size": 6.7,
+      "hsid": 3359
+    },
+    "CO14_PROMAX_DP1024": {
+      "capacity": 1024,
+      "color_chi": "暗紫色",
+      "color_eng": "Deep Purple",
+      "img_prefix": "iphone14-promax-deeppurple",
+      "model_code": "CO14_PROMAX_DP1024",
+      "name_chi": "iPhone 14 Pro Max",
+      "name_eng": "iPhone 14 Pro Max",
+      "product_code": "MQ8M3ZA/A",
+      "price": 13599,
+      "screen_size": 6.7,
+      "hsid": 3359
+    }
+  },
+  "handset_order": [
+      {
+        "title_img": "iPhone 15 Pro Max",
+        "status": "pre_order",
+        "order": [
+          [
+            "CO14_PROMAX_SB128",
+            "CO14_PROMAX_SB256",
+            "CO14_PROMAX_SB512",
+            "CO14_PROMAX_SB1024"
+          ],
+          [
+            "CO14_PROMAX_SV128",
+            "CO14_PROMAX_SV256",
+            "CO14_PROMAX_SV512",
+            "CO14_PROMAX_SV1024"
+          ],
+          [
+            "CO14_PROMAX_GD128",
+            "CO14_PROMAX_GD256",
+            "CO14_PROMAX_GD512",
+            "CO14_PROMAX_GD1024"
+          ],
+          [
+            "CO14_PROMAX_DP128",
+            "CO14_PROMAX_DP256",
+            "CO14_PROMAX_DP512",
+            "CO14_PROMAX_DP1024"
+          ]
+        ]
+      },
+      {
+        "title_img": "iPhone 15 Pro",
+        "status": "pre_order",
+        "order": [
+          [
+            "CO14_PRO_SB128",
+            "CO14_PRO_SB256",
+            "CO14_PRO_SB512",
+            "CO14_PRO_SB1024"
+          ],
+          [
+            "CO14_PRO_SV128",
+            "CO14_PRO_SV256",
+            "CO14_PRO_SV512",
+            "CO14_PRO_SV1024"
+          ],
+          [
+            "CO14_PRO_GD128",
+            "CO14_PRO_GD256",
+            "CO14_PRO_GD512",
+            "CO14_PRO_GD1024"
+          ],
+          [
+            "CO14_PRO_DP128",
+            "CO14_PRO_DP256",
+            "CO14_PRO_DP512",
+            "CO14_PRO_DP1024"
+          ]
+        ]
+      },
+      {
+        "title_img": "iPhone 15 Plus",
+        "status": "pre_order",
+        "order": [
+          [
+            "CO14_PLUS_MN128",
+            "CO14_PLUS_MN256",
+            "CO14_PLUS_MN512"
+          ],
+          [
+            "CO14_PLUS_SL128",
+            "CO14_PLUS_SL256",
+            "CO14_PLUS_SL512"
+          ],
+          [
+            "CO14_PLUS_PU128",
+            "CO14_PLUS_PU256",
+            "CO14_PLUS_PU512"
+          ],
+          [
+            "CO14_PLUS_RD128",
+            "CO14_PLUS_RD256",
+            "CO14_PLUS_RD512"
+          ],
+          [
+            "CO14_PLUS_BL128",
+            "CO14_PLUS_BL256",
+            "CO14_PLUS_BL512"
+          ]
+        ]
+      },
+      {
+        "title_img": "iPhone 15",
+        "status": "pre_order",
+        "order": [
+          [
+            "CO14_MN128",
+            "CO14_MN256",
+            "CO14_MN512"
+          ],
+          [
+            "CO14_SL128",
+            "CO14_SL256",
+            "CO14_SL512"
+          ],
+          [
+            "CO14_PU128",
+            "CO14_PU256",
+            "CO14_PU512"
+          ],
+          [
+            "CO14_RD128",
+            "CO14_RD256",
+            "CO14_RD512"
+          ],
+          [
+            "CO14_BL128",
+            "CO14_BL256",
+            "CO14_BL512"
+          ]
+        ]
+      }
+    ]
+}
+const offer_data = {
+  "offer_data":{
+    "gift":{
+        "magsafe_charger":{
+        "id":"magsafe_charger",
+        "img":"/IMG_V3/common/priority/magsafe.png",
+        "title":"MagSafe Charger",
+        "price":0,
+        "remark":"for first 1000 customer"
+        }
+    },
+    "applecare": {
+          "iphone_pro": {
+            "id": "iphone_pro",
+            "img": "/IMG_V3/common/priority/applecare.png",
+            "title": "AppleCare+",
+            "desc": "Get AppleCare+ coverage. Protect your new iPhone.",
+            "price": 1899,
+            "offer_price": 1899,
+            "product_code": "SFYV2ZX/A",
+            "details": [
+              "Every iPhone comes with one year of hardware repair coverage through its limited warranty and up to 90 days of complimentary support.  AppleCare+ for iPhone extends your coverage to two years from your AppleCare+ purchase date and adds up to two incidents of accidental damage protection every 12 months. Each incident is subject to a service fee of HK$228 for or back glass damage, or HK$788 for any other damage. For more info, please visit: <a href=\"http://www.apple.com/en/support/products/iphone/\" href=\"_blank\">http://www.apple.com/en/support/products/iphone/</a> ",
+              "AppleCare+ must be purchased instantly when pre-ordering iPhone, or bought within 60 days of your iPhone collection at an Apple Retail shop, and it requires inspection of your iPhone and proof of purchase."
+            ]
+          },
+          "iphone_pro_max": {
+            "id": "iphone_pro_max",
+            "img": "/IMG_V3/common/priority/applecare.png",
+            "title": "AppleCare+",
+            "desc": "Get AppleCare+ coverage. Protect your new iPhone.",
+            "price": 1899,
+            "offer_price": 1899,
+            "product_code": "SFYW2ZX/A",
+            "details": [
+              "Every iPhone comes with one year of hardware repair coverage through its limited warranty and up to 90 days of complimentary support.  AppleCare+ for iPhone extends your coverage to two years from your AppleCare+ purchase date and adds up to two incidents of accidental damage protection every 12 months. Each incident is subject to a service fee of HK$228 for or back glass damage, or HK$788 for any other damage. For more info, please visit: <a href=\"http://www.apple.com/en/support/products/iphone/\" href=\"_blank\">http://www.apple.com/en/support/products/iphone/</a> ",
+              "AppleCare+ must be purchased instantly when pre-ordering iPhone, or bought within 60 days of your iPhone collection at an Apple Retail shop, and it requires inspection of your iPhone and proof of purchase."
+            ]
+          }
+        }
+  }
+}
+
+const store = {"shop_list":[{"address":"Shop UC-29, Upper Concourse Level, APM, Millennium City 5, 418 Kwun Tong Road, Kwun Tong (near Calvin Klein Jeans), Kwun Tong, Kowloon","name":"Kwung Tong","id":"APM","mapLink":"https://www.smartone.com/en/privileges_and_support/contact_us/store_location.jsp?store=APM"},{"address":"Shop No.2, G/F, Unicorn Trade Centre, No. 127-131 Des Voeux Road (next to Hang Seng Bank Bldg), Central","name":"Central","id":"CTL","mapLink":"https://www.smartone.com/en/privileges_and_support/contact_us/store_location.jsp?store=CTL"},{"address":"Shop C, G/F., Kam Shing Building, Nos.24A-26 Jordan Road, Kowloon","name":"Jordan","id":"JRD","mapLink":"https://www.smartone.com/en/privileges_and_support/contact_us/store_location.jsp?store=JRD"},{"address":"Shop 615A, Level 6, Phase 1, New Town Plaza, Shatin, Shatin, New Territories","name":"Shatin","id":"NTS","mapLink":"https://www.smartone.com/en/privileges_and_support/contact_us/store_location.jsp?store=NTS"},{"address":"Shop 151A,1/F Cityplaza, 18 Taikoo Shing Road, Tai Koo","name":"Tai Koo","id":"TCP","mapLink":"https://www.smartone.com/en/privileges_and_support/contact_us/store_location.jsp?store=TCP"},{"address":"Shop 103-105, Level 1, PARK Central","name":"Tseung Kwan O","id":"TKP","mapLink":"https://www.smartone.com/en/privileges_and_support/contact_us/store_location.jsp?store=TKP"},{"address":"Shop 2046, 2/F, KOLOUR.Tsuen Wan I, 68 Chung On Street","name":"Tsuen Wan","id":"TWS","mapLink":"https://www.smartone.com/en/privileges_and_support/contact_us/store_location.jsp?store=TWS"},{"address":"Shop A313b,Level 3,YOHO Mall II,8 Long Yat Road","name":"Yuen Long","id":"YOS","mapLink":"https://www.smartone.com/en/privileges_and_support/contact_us/store_location.jsp?store=YOS"}]};
+
+const plan_data = {"plans":[{"mobileData":"30","subtitle":"5G 計劃","pointGroup":[{"detail":[{"icon": "https://ipstage7.smartone.com/IMG_V3/common/icon_fee.png", "description":"「FREE住傾」\n免數據任用Zoom/ Teams"},{"icon": "https://ipstage7.smartone.com/IMG_V3/common/icon_fee.png", "description":"送12個月升級版雙面保護「SmarTone爆芒換新」"}],"title":"專享禮遇"},{"detail":[{"icon": "https://ipstage7.smartone.com/IMG_V3/common/icon_fee.png", "description":"500個網內短訊、留言信箱 、 來電轉駁 、 來電顯示 、 來電待接 、 電話會議"},{"icon": "https://ipstage7.smartone.com/IMG_V3/common/icon_fee.png", "description":"每月HK$18行政費"}],"title":"服務包括"}],"id":"fd73f8c1-dc99-4965-a916-8dd1aa9fcfbd","title":"基本計劃","planCode":"5GABP","highlightText":"極速網絡體驗","monthlyFee":{"curr_price":"238"},"contractPeriod":"28"},{"mobileData":"60","subtitle":"5G 計劃","pointGroup":[{"detail":[{"icon": "https://ipstage7.smartone.com/IMG_V3/common/icon_fee.png", "description":"每月額外500MB大灣區數據及免費中國內地號碼"},{"icon": "https://ipstage7.smartone.com/IMG_V3/common/icon_fee.png", "description":"「FREE住傾」\n免數據任用Zoom/ Teams"},{"icon": "https://ipstage7.smartone.com/IMG_V3/common/icon_fee.png", "description":"送12個月升級版雙面保護「SmarTone爆芒換新」"}],"title":"專享禮遇"},{"detail":[{"icon": "https://ipstage7.smartone.com/IMG_V3/common/icon_fee.png", "description":"500個網內短訊、留言信箱 、 來電轉駁 、 來電顯示 、 來電待接 、 電話會議"},{"icon": "https://ipstage7.smartone.com/IMG_V3/common/icon_fee.png", "description":"每月HK$18行政費"}],"title":"服務包括"}],"id":"fd73f8c1-dc99-4965-a916-8dd1aa9fcfbd","title":"標準計劃","planCode":"5GABQ","highlightText":"極速網絡體驗","monthlyFee":{"curr_price":"298"},"contractPeriod":"28"},{"mobileData":"110","subtitle":"5G 計劃","pointGroup":[{"detail":[{"icon": "https://ipstage7.smartone.com/IMG_V3/common/icon_fee.png", "description":"每月額外500MB大灣區數據及免費中國內地號碼"},{"icon": "https://ipstage7.smartone.com/IMG_V3/common/icon_fee.png", "description":"「FREE住傾」\n免數據任用Zoom/ Teams"},{"icon": "https://ipstage7.smartone.com/IMG_V3/common/icon_service.png", "description":"送12個月升級版雙面保護「SmarTone爆芒換新」"}],"title":"專享禮遇"},{"detail":[{"description":"500個網內短訊、留言信箱 、 來電轉駁 、 來電顯示 、 來電待接 、 電話會議"},{"icon": "https://ipstage7.smartone.com/IMG_V3/common/icon_fee.png", "description":"每月HK$18行政費"}],"title":"服務包括"}],"id":"fd73f8c1-dc99-4965-a916-8dd1aa9fcfbd","title":"高級計劃","planCode":"5GABR","highlightText":"極速網絡體驗","monthlyFee":{"curr_price":"398"},"contractPeriod":"28"},{"mobileData":"180","subtitle":"5G 計劃","pointGroup":[{"detail":[{"icon": "https://ipstage7.smartone.com/IMG_V3/common/icon_fee.png", "description":"每月額外2GB大灣區數據及免費中國內地號碼"},{"icon": "https://ipstage7.smartone.com/IMG_V3/common/icon_fee.png", "description":"免費5G無限本地數據"},{"icon": "https://ipstage7.smartone.com/IMG_V3/common/icon_fee.png", "description":"免費「數據智滾存」服務"},{"icon": "https://ipstage7.smartone.com/IMG_V3/common/icon_fee.png", "description":"「FREE住傾」\n免數據任用Zoom/ Teams"},{"icon": "https://ipstage7.smartone.com/IMG_V3/common/icon_fee.png", "description":"送12個月升級版雙面保護「SmarTone爆芒換新」"}],"title":"專享禮遇"},{"detail":[{"icon": "https://ipstage7.smartone.com/IMG_V3/common/icon_fee.png", "description":"500個網內短訊、留言信箱 、 來電轉駁 、 來電顯示 、 來電待接 、 電話會議"},{"icon": "https://ipstage7.smartone.com/IMG_V3/common/icon_fee.png", "description":"每月HK$18行政費"}],"title":"服務包括"}],"id":"fd73f8c1-dc99-4965-a916-8dd1aa9fcfbd","title":"優越計劃","planCode":"5GABS","highlightText":"極速網絡體驗","monthlyFee":{"curr_price":"498"},"contractPeriod":"28"},{"mobileData":"220","subtitle":"5G 計劃","pointGroup":[{"detail":[{"icon": "https://ipstage7.smartone.com/IMG_V3/common/icon_fee.png", "description":"每月額外2GB大灣區數據及免費中國內地號碼"},{"icon": "https://ipstage7.smartone.com/IMG_V3/common/icon_fee.png", "description":"免費5G無限本地數據"},{"icon": "https://ipstage7.smartone.com/IMG_V3/common/icon_fee.png", "description":"免費「數據智滾存」服務"},{"icon": "https://ipstage7.smartone.com/IMG_V3/common/icon_fee.png", "description":"「FREE住傾」\n免數據任用Zoom/ Teams"},{"icon": "https://ipstage7.smartone.com/IMG_V3/common/icon_fee.png", "description":"送12個月升級版雙面保護「SmarTone爆芒換新」"}],"title":"專享禮遇"},{"detail":[{"icon": "https://ipstage7.smartone.com/IMG_V3/common/icon_fee.png", "description":"500個網內短訊、留言信箱 、 來電轉駁 、 來電顯示 、 來電待接 、 電話會議"},{"icon": "https://ipstage7.smartone.com/IMG_V3/common/icon_fee.png", "description":"每月HK$18行政費"}],"title":"服務包括"}],"id":"fd73f8c1-dc99-4965-a916-8dd1aa9fcfbd","title":"優質計劃","planCode":"5GABT","highlightText":"極速網絡體驗","monthlyFee":{"curr_price":"598"},"contractPeriod":"28"},{"mobileData":"330","subtitle":"5G 計劃","pointGroup":[{"detail":[{"icon": "https://ipstage7.smartone.com/IMG_V3/common/icon_fee.png", "description":"每月額外2GB大灣區數據及免費中國內地號碼"},{"icon": "https://ipstage7.smartone.com/IMG_V3/common/icon_fee.png", "description":"免費5G無限本地數據"},{"icon": "https://ipstage7.smartone.com/IMG_V3/common/icon_fee.png", "description":"免費「數據智滾存」服務"},{"icon": "https://ipstage7.smartone.com/IMG_V3/common/icon_fee.png", "description":"「FREE住傾」\n免數據任用Zoom/ Teams"},{"icon": "https://ipstage7.smartone.com/IMG_V3/common/icon_fee.png", "description":"送12個月升級版雙面保護「SmarTone爆芒換新」"}],"title":"專享禮遇"},{"detail":[{"icon": "https://ipstage7.smartone.com/IMG_V3/common/icon_fee.png", "description":"500個網內短訊、留言信箱 、 來電轉駁 、 來電顯示 、 來電待接 、 電話會議"},{"icon": "https://ipstage7.smartone.com/IMG_V3/common/icon_fee.png", "description":"每月HK$18行政費"}],"title":"服務包括"}],"id":"fd73f8c1-dc99-4965-a916-8dd1aa9fcfbd","title":"至尊計劃","planCode":"5GABU","highlightText":"極速網絡體驗","monthlyFee":{"curr_price":"698"},"contractPeriod":"28"}]}
+
+const sPlanCodeWhiteList = "|3GSH|3GRP|3GBEW|3GRK|3GBMF|5GAAC|3GSJ|3GSI|5GAAI|3GSK|5GAAH|3GSF|5GAAN|3GBMH|3GRO|5GAAG|3GSD|3GBMG|3GBMU|3GBMZ|3GSM|3GRQ|3GBMV|ZC016|ZC008|3GSA|3GRW|3GBQ|5GAAQ|3GRF|ZC002|ZC010|3GSB|5GAAA|3GQP|3GBME|3GDM|3GBIC|5GAAP|3GQS|5GABB|3GBMI|3GBLZ|3GBP|3GRI|5GABC|3GBIB|3GQR|3GRJ|3GRT|3GRU|";
+
+		jQuery(document).ready(function () {
+                renderReactApp({
+                    lang: "english",
+                    quota: 3,
+                    handsetGroupData: handset_data,
+                    addonOfferData: offer_data,
+                    storeData: store,
+                    planData: plan_data,
+                    container: document.getElementById('app'),
+                    customTheme: {
+                        breakpoints: {
+                            values: {
+                                md: 768,
+                                sm: 576
+                            }
+                        },
+                    },
+                    applicationContext: {
+                        google: {
+                            recaptcha: {
+                                v2: {
+                                    siteKey: "6LeLK_cfAAAAAFnMz5iCP2Vgctumq9aqEFZXwnAv",
+                                    siteKey_bak: "6Le68bEUAAAAACp_GCuS8PeDmo7TW9dl8pjOKpJg"
+                                }
+                            }
+                        },                       
+                        retentionInfo: {
+                            name: "CHAN Txx Mxx",
+                            docType: "PASSPORT",
+                            mobile: "55994906",
+                            newContractDate: "2022-12-31",
+                            custNum: "10851040",
+                            lastNameEnc: "38781c6ec43064712cc891411a54d5b1",
+                            otherNameEnc: "",
+                            docNumEnc: "4adeb8c194804c7211b94e158af03014",
+                            planCodeCurr : "5GAAC",
+                            contactNum : "55997031"
+                        },
+                        channel: "ob",
+												sPlanCodeWhiteList: sPlanCodeWhiteList,
+                        url: {
+                            preorder: "https://ipstage7.smartone.com/jsp/tchinese/preorder_form.jsp",
+                            domain: "https://ipstage7.smartone.com/"
+                        },
+												eventCallback: function(event) {
+													console.log(event);
+												}
+                    }
+                });
+            });
+/*            
+document.body.addEventListener('insertTnc', (e) => {
+    const resource = document.querySelector(e.detail.resourceId);
+    const target = document.querySelector(e.detail.targetId);
+    if (resource == null || target == null){
+        return;
+    }
+    target.insertAdjacentHTML("afterbegin", resource.getInnerHTML());
+});
+*/
+document.body.addEventListener('setCurrentStep', (e) => {
+    if (!e.detail.step || typeof goToStep !=="function"){
+        return;
+    }
+    goToStep(e.detail.step);
+});
+document.body.addEventListener('setSelectPhone', (e) => {
+    if (!e.detail.step || typeof onChangeProgessBar !=="function"){
+        return;
+    }
+    onChangeProgessBar(e.detail.step);
+});
+    </script>
+
+</body>
+
+</html>

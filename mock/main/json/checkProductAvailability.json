@@ -1,0 +1,45 @@
+{
+	"status": "ok",
+	"data": {
+		"gift": {
+			"magsafe_charger": {
+				"reserved": true,
+				"available": true
+			}
+		},
+		"handset": {
+			"CO14_PRO_GD256": {
+				"reserved": false,
+				"available": false
+			},
+			"CO14_PROMAX_GD256": {
+				"reserved": false,
+				"available": true
+			},
+			"CO14_PROMAX_DP256": {
+				"reserved": false,
+				"available": true
+			},
+			"CO14_PROMAX_SV256": {
+				"reserved": false,
+				"available": true
+			},
+			"CO14_PRO_DP256": {
+				"reserved": false,
+				"available": true
+			},
+			"CO14_PROMAX_SB256": {
+				"reserved": false,
+				"available": true
+			},
+			"CO14_PRO_SV256": {
+				"reserved": false,
+				"available": true
+			},
+			"CO14_PRO_SB256": {
+				"reserved": true,
+				"available": true
+			}
+		}
+	}
+}

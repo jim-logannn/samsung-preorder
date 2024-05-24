@@ -1,0 +1,16 @@
+{
+  "files.associations": {
+		"*.jsx": "javascriptreact",
+		"*.tsx": "typescriptreact"
+	},
+	"[javascript, typescript, typescriptreact]": {
+		"editor.formatOnSave": true,
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"i18n-ally.localesPaths": [
+		"src/com/smartone/lang",
+		"src/com/smartone/locale"
+	],
+	"i18n-ally.keystyle": "nested",
+	"i18n-ally.sourceLanguage": "en-US",
+}

@@ -1,0 +1,6 @@
+[submodule "smt-h5gbb-retent"]
+	path = smt-h5gbb-retent
+	url = https://apgitscpl01/smc-de-team/retention/h5gbb-retention/frontend/h5gbb-online-retention-portal.git
+[submodule "subModules/h5gbb-portal"]
+	path = subModules/h5gbb-portal
+	url = https://apgitscpl01/smc-de-team/retention/h5gbb-retention/frontend/h5gbb-online-retention-portal.git

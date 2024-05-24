@@ -1,0 +1,310 @@
+{
+  "phone-select": {
+    "add-on": "加購選項",
+    "free-gift": "「Smart先Phone」禮遇",
+    "free": "免費",
+    "more-details": "更多詳情",
+    "apple-id": "你的Apple ID",
+    "no-stock-phone": "暫時缺貨",
+    "no-stock-magsafe": "已全數送出",
+    "list-price": "建議零售價: ",
+    "lead-in": {
+      "title": "iPhone 14系列續約優惠",
+      "desc": "特選客戶只需續約並繳付全數機價，新 iPhone心水顏色及型號 ，可於指定日期及專門店取機！"
+    },
+    "term": {
+      "text1": "當你預訂的 iPhone 到貨後，你將收到電郵及短訊通知，屆時需於<b>48小時</b>內透過CARE App於網上完成訂購程序，手機折扣優惠可於付款時享用",
+      "text1NoVoucher": "當你預訂的 iPhone 到貨後，你將收到電郵及短訊通知，屆時需於<b>48小時</b>內透過CARE App於網上完成訂購程序。",
+      "text2": "iPhone xxxxx型號將於x月x日接受預訂，你可保留SmarT Pass行使權利至該型號接受預訂後48小時為止"
+    },
+    "recommend-price": "* 建議零售價",
+    "reach-limit": "已達到可預訂的iPhone數量",
+    "buy-now": "可於<a href='https://www.smartone.com/tc/privileges_and_support/contact_us/store_location.jsp' target='_blank'>門市</a>選購現貨"
+  },
+  "location": {
+    "view-map": "檢視地圖",
+    "select-location": "選擇門市",
+    "select-your-pick-up-location": "選擇取貨門市",
+    "continue": "繼續"
+  },
+  "formControl": {
+    "mobileNumber": {
+      "label": "手提電話號碼",
+      "label.optional": "手提電話號碼(可選)",
+      "placeholder": "例子：61230456",
+      "require": "請輸入手提電話號碼"
+    },
+    "hkid": {
+      "label": "香港身分證(首4位數字)",
+      "label.optional": "香港身分證(首4位數字) (可選)",
+      "placeholder": "例子：1111",
+      "require": "請輸入身分證號碼(首4位數字)"
+    },
+    "firstName": {
+      "label": "名字",
+      "label.optional": "名字(可選)",
+      "placeholder": "例子：大文",
+      "require": "請輸入名字"
+    },
+    "lastName": {
+      "label": "姓",
+      "label.optional": "姓(可選)",
+      "placeholder": "例子：陳",
+      "require": "請輸入姓"
+    },
+    "email": {
+      "label": "電郵地址",
+      "label.optional": "電郵地址(可選)",
+      "placeholder": "例子： haydenli@gmail.com",
+      "require": "請輸入電郵地址"
+    },
+    "apple-email": {
+      "label": "你的Apple ID",
+      "label.optional": "你的Apple ID(可選)",
+      "placeholder": "例子： haydenli@gmail.com",
+      "require": "請輸入電郵地址"
+    },
+    "passport": {
+      "label": "護照(頭4位字符)",
+      "label.optional": "護照(頭4位字符)) (如適用)",
+      "placeholder": "例子：A111",
+      "require": "請輸入護照(頭4位字符)"
+    },
+    "yob": {
+      "label": "出生年份",
+      "label.optional": "出生年份 (如適用)",
+      "placeholder": "例子：1990",
+      "require": "請輸入出生年份"
+    },
+    "option": {
+      "delivery": "送貨上門 (SmarTone Plus 超特選會員專享)",
+      "pickup": "已選擇的門市",
+      "pickup_datetime": "取機日期和時段: ",
+      "delivery_date" :"送貨日期: "
+    },
+    "addressLine1": {
+      "placeholder": "公寓、樓層、街區、建築物",
+      "helperText": "請輸入英文地址，不包含特殊符號如-&>*!%"
+    },
+    "addressLine2": {
+      "placeholder": "屋村、街道號碼、街道名稱",
+      "helperText": "請輸入英文地址，不包含特殊符號如-&>*!%"
+    },
+    "contactNumber": {
+      "placeholder": "e.g. 9123XXXX",
+      "helperText": "請輸入電話號碼"
+    },
+    "recipient": {
+      "placeholder": "e.g. Hayden",
+      "helperText": "請輸入英文姓名"
+    }
+  },
+  "general": {
+    "show-more": "顯示更多",
+    "show-less": "收起"
+  },
+  "modal": {
+    "dialog": {
+      "confirm": {
+        "button": {
+          "no": "返回",
+          "yes": "確認"
+        }
+      },
+      "alert": {
+        "button": {
+          "ok": "明白"
+        }
+      }
+    }
+  },
+  "locartion": {
+    "change": "更改"
+  },
+  "footer": {
+    "summary": {
+      "error": {
+        "select-plan": "請選擇續約計劃"
+      },
+      "iphone-price": "iPhone 機價",
+      "applecare": "AppleCare+",
+      "prepayment": "6 months prepayment"
+    },
+    "reminder": {
+      "other-storage": "想要其他型號？",
+      "other-plan": "想選擇其他續約計劃？",
+      "storage-remind-message": "你可{link}透過一般預訂程序預訂其他iPhone型號，唯將不設「Smart先Phone」優先取機服務及MagSafe充電器贈品。",
+      "plan-remind-message": "你可{link}透過一般預訂程序預訂iPhone 14，並於取機時選擇其他合適計劃，唯將不設「Smart先Phone」優先取機服務及MagSafe充電器贈品。",
+      "time-remind-message": "如有需要，可{link}透過一般預訂程序預訂iPhone，唯將不設「Smart先Phone」優先取機服務及MagSafe充電器贈品。",
+      "click-here": "按此",
+      "preorder-redpass": "確認離開本頁？",
+      "alert-message": "一經確認離開，所有已選項目將不獲記錄及保留。",
+      "timeslot-not-fit": "「Smart先Phone」優先取機服務只適用於上述地點及日期時間。"
+    },
+    "button": {
+      "continue": "繼續",
+      "confirm": "確認"
+    },
+    "note": {
+      "back": "返回",
+      "all-right-reserved": "商標及版權所有 © {year} Apple Inc. 保留所有權利。",
+      "copyright": "商標及版權所有 © {year} SmarTone Mobile Communications Limited. 保留所有權利。"
+    },
+    "select-phone": {
+      "quantity": "{no}",
+      "selected": "你已選擇 {number} 部iPhone",
+      "remark": "當你預訂的 iPhone到貨後，你將收到電郵及短訊通知，屆時需於48小時內透過CARE App完成訂購程序",
+      "remark-voucher": "當你預訂的 iPhone到貨後，你將收到電郵及短訊通知，屆時需於48小時內透過CARE App完成訂購程序，手機折扣優惠可於付款時享用"
+    },
+    "term": {
+      "declare": "我清楚明白及接受以下條款及細則：​"
+    }
+  },
+  "error": {
+    "system-busy": "系統繁忙，請稍後重試。",
+    "handset-no-quota": "你所選的iPhone型號預訂名額已滿，請選擇其他型號。",
+    "magsafe-no-quota": "抱歉，「免費 MagSafe 充電器」已全數送出。",
+    "max-reserve-ticket": "你所選的iPhone型號預訂名額已滿，請選擇其他型號。",
+    "info-hkid-not-match": "出生年份或香港身分證/護照輸入不正確",
+    "info-yob-not-match": "出生年份或香港身分證/護照輸入不正確",
+    "info-invalid": "個人資料不正確，請重試。",
+    "retention-invalid": "續約資料不正確"
+  },
+  "selectPlan": {
+    "5g-service-plan": "5G 服務計劃"
+  },
+  "step": {
+    "select-model": "選擇型號",
+    "collenction-method": "取機方式",
+    "review": "預訂詳情",
+    "select-pickup-date": {
+      "remark": "如果下一步訂單付款所使用的信用卡不是您的名下，請讓信用卡持卡人下載、填寫並簽署授權表。\n前往您選擇的商店時，請攜帶以上所有物品以及用於訂單付款的信用卡複印件。",
+      "remark1": "你需按照取機日期及時段，到已選擇的門市取機",
+      "remark2": "若未能親身取機，可填妥並簽署「委託代領授權書」授權他人代領。代領人需於取機時攜同本人的香港身份證/護照及委託代領授權書之正本 、用作訂購之信用卡正面副本、PayMe、支付寶(香港)或WeChat Pay HK交易紀錄的螢幕截圖。",
+      "remark3": "如你未能於預約日期及時段取機，你需與WhatsApp專員聯絡，我們會按產品供應為你重新輪候取機"
+    },
+    "select-delivery-date": {
+      "remark1": "如對送貨安排有任何查詢，請致電24 小時客戶服務熱線 2281 8833 。"
+    }
+  },
+  "pre-order": {
+    "summary": {
+      "heading": "選擇取機方式"
+    },
+    "review": {
+      "heading": "預訂詳情"
+    },
+    "thank-you": {
+      "heading": "多謝預訂",
+      "sub-title": "你將收到預訂確認電郵及短訊。",
+      "footer": "如成功落實預訂後，並未收到我們的確認電郵，請檢查你的垃圾郵件夾。為確保你日後可收到我們的重要郵件，請即時將 <a href=\"mailto:comms@service.smartone.com\">comms@service.smartone.com</a> 及 <a href=\"mailto:advice@comms.smartone.com\">advice@comms.smartone.com</a> 加以你的電郵地址簿。",
+      "footer2": "若確認未能收到我們的電郵/ 或短訊，請致電2880 2688 查詢。",
+      "footer2-whitelist": "若確認未能收到我們的電郵/ 或短訊，請致電2281 8833查詢。",
+      "lead-in": "當你預訂的iPhone型號到貨後，你將收到電郵及短訊通知，屆時需於<b>48小時</b>內透過CARE App 預約取機及完成訂購程序，以保障你能儘早取得新 iPhone。",
+      "remark": " "
+    }
+  },
+  "discount": "折扣",
+  "collectionMethod": "收集方法",
+  "select_store": "選擇門市",
+  "pickup_at": "提貨門市",
+  "privilege-offers": "優惠",
+  "delivery-terms": {
+    "term1": "你所購買的 iPhone 會在送貨前開盒及完成啟動程序",
+    "term2": "當你預訂的 iPhone 型號到貨後，你將收到短訊及電郵通知，屆時需於48小時內透過CARE App揀選送貨日期、提供送貨地址及付款，以完成訂購程序",
+    "term3": "如你已選用 iPhone for Life 計劃或分期付款，將不能享送貨上門",
+    "term4": "送貨地區並不包括選項以外地區",
+    "term5": "<a href=\"/pdf/iPhone15-Delivery-TC_TC.pdf\" target=\"_blank\">送貨服務條款及細則</a>"
+  },
+  "voucher": {
+    "max-quota": "你可預訂的iPhone數量",
+    "handset-offer": "手機折扣優惠",
+    "offer-remark": "(Each coupon for 1 handset order)",
+    "quantity": "{no}",
+    "max-quantity": "{number} 部",
+    "remark": "除iPhone 15 Pro Max 1TB外，所有型號門市現貨發售，無需於網上預訂。你所享有的手機折扣優惠可於門市使用。"
+  },
+  "coupons": {
+    "IP15_HS_$200_Dis": "$200折扣出iPhone一部",
+    "$500_HSPR23": "$500折扣出iPhone一部",
+    "IP15_HS_9_Per_Dis": "91折出iPhone一部",
+    "IP15_HS_12_Per_Dis": "88折出iPhone一部",
+    "IP15_HS_5_Per_Dis_01": "95折出iPhone一部",
+    "IP15_HS_5_Per_Dis_02": "95折出iPhone一部",
+    "IP15_HS_5_Per_Dis_03": "95折出iPhone一部",
+    "IP15_HS_7_Per_Dis_01": "93折出iPhone一部",
+    "IP15_HS_7_Per_Dis_02": "93折出iPhone一部",
+    "IP15_HS_7_Per_Dis_03": "93折出iPhone一部",
+    "IP15_Accy_9_Per_Dis": "91折購買指定原廠配件一件",
+    "IP15_Accy_12_Per_Dis": "88折購買指定原廠配件一件"
+  },
+  "view-map": "檢視地圖",
+  "location-selector": {
+    "heading": "請選擇提貨門市"
+  },
+  "change_store": "更改分店",
+  "price": {},
+  "recommended": "建議零售價",
+  "order": "訂單",
+  "please-select": "請選擇",
+  "district": "地區",
+  "screen-replace": "更換屏幕",
+  "add-ons": "加購選項",
+  "contact-number": "聯絡電話",
+  "delivery-address": "送貨地址",
+  "delivery-date": "可供選擇的日期",
+  "delivery-to": "收件人資料",
+  "free-gift": "禮遇",
+  "handset-discount-offer": "出機折扣優惠",
+  "pickup-date": "取機日期",
+  "pickup-time": "取機時段",
+  "recipient": "姓名",
+  "reference-number": "訂單編號：",
+  "review": {
+    "collect-method": {
+      "delivery": {
+        "remark": "當 iPhone 準備好領取時，需要提供送貨資料"
+      }
+    },
+    "confirm": "請檢查並確認你的訂單。"
+  },
+  "proceed-payment": "付款",
+  "no-quota-for-delivery": "送貨配額已滿，請選擇門市取機",
+  "fulfill": {
+    "order-select": {
+      "title": "你的預訂",
+      "desc": "請查閱你已預訂的iPhone狀況及完成訂購程序。",
+      "reference-no": "訂單編號:",
+      "collection-status": "取機狀態"
+    },
+    "review-total":"總額"
+  },
+  "TS1": "Open - 12:00pm",
+  "TS2": "12:00pm - 2:00pm",
+  "TS3": "2:00 pm - 4:00pm",
+  "TS4": "4:00pm - 7:00pm",
+  "TS5": "7:00pm - Close",
+  "default-pickup-date": "可供選擇的日期",
+  "default-pickup-time": "可供選擇的時段",
+  "delivery-remark-1": "你所購買的iPhone會在送貨前開盒及完成啟動程序",
+  "dont-use": "不使用",
+  "pay-online-to-enjoy-more": "立即網上付款，享受更多！",
+  "smooth-pickup-orange": "立即網上付款, 15分鐘店內完成取機 ，為你節省更多時間！",
+  "smooth-pickup": "15分鐘店內完成取機 ，為你節省更多時間",
+  "proceed-to-payment": "前往付款",
+  "sales-assisted-payment": "門市付款請按此",
+  "please-paid-for-ip4l-at-store": "你已選擇iPhone for Life，請到門市付款",
+  "discount-price": "優惠價",
+  "pre-ordered-summary": "預約取機",
+  "confirm": "確認",
+  "pay-at-store": "門市付款",
+  "pay-online": "網上付款",
+  "free": "已包括",
+  "datapass": "送2日亞太區漫遊數據多日通",
+  "sales-assisted-payment-iphone4life": "已選擇iPhone for Life計劃，請到門市付款",
+  "you-have-selected-iphone-for-life-please-visit-our-stores-to-proceed-with-the-payment": "你已選擇iPhone for Life計劃，請到門市付款",
+  "reminder": "提提你",
+  "reminder-msg-online": "選擇於門市付款將不能享網上付款優惠 – 送2日亞太區漫遊數據多日通。如你未能於預約時段到門市付款及取機，我們會按產品供應重新安排取機，屆時你需與WhatsApp專員聯絡。\n\n為了讓你能儘早取得iPhone及節省更多時間，我們建議你於網上進行付款。",
+  "reminder-msg-offline": "如你未能於預約時段到門市付款及取機，我們會按產品供應重新安排取機，屆時你需與WhatsApp專員聯絡。\n\n為了讓你能儘早取得iPhone及節省更多時間，我們建議你於網上進行付款。",
+  "prepayment": "服務費預繳"
+}

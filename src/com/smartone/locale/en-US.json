@@ -1,0 +1,308 @@
+{
+  "phone-select": {
+    "add-on": "Add-on Offer",
+    "free-gift": "“Smart Priority Phone” Privilege",
+    "free": "Free",
+    "more-details": "More details",
+    "apple-id": "Your Apple ID",
+    "no-stock-phone": "Temporarily out of stock",
+    "no-stock-magsafe": "All chargers have been given away",
+    "list-price": "Recommended Retail Price: ",
+    "lead-in": {
+      "title": "iPhone 14 Series Recontract Offer",
+      "desc": "Selected SmarTone customers simply re-contract and pay for the phone in full, you will be guaranteed with your choice of iPhone model and colour for pick up on designated date and store!"
+    },
+    "term": {
+      "text1": "You will be notified by email and SMS when your iPhone is ready. Within <b>48 hours</b> upon receipt of notification, please complete the order via CARE App. Your Handset Discount can be applied while completing the payment and order.",
+      "text1NoVoucher": "You will be notified by email and SMS when your iPhone is ready. Within <b>48 hours</b> upon receipt of notification, please complete the order online via CARE App.",
+      "text2": "iPhone xxxxxx will be available for pre-order on DD MMM. You can keep and exercise your SmarT Pass within 48 hours after pre-order starts."
+    },
+    "recommend-price": "* Recommended Retail Price",
+    "reach-limit": "You have reached the maximum pre-order quantity",
+    "buy-now": "Stock available in <a href='https://www.smartone.com/en/privileges_and_support/contact_us/store_location.jsp' target='_blank'>stores</a> now"
+  },
+  "location": {
+    "view-map": "View Map",
+    "select-location": "Select location",
+    "select-your-pick-up-location": "Select your pick up location",
+    "continue": "Continue"
+  },
+  "formControl": {
+    "mobileNumber": {
+      "label": "Mobile Number",
+      "label.optional": "Mobile Number (Optional)",
+      "placeholder": "e.g. 61230456",
+      "require": "Please input contact number"
+    },
+    "hkid": {
+      "label": "HKID (first 4 digits)",
+      "label.optional": "HKID (first 4 digits) (Optional)",
+      "placeholder": "e.g. 1111",
+      "require": "Please enter your HKID (first 4 digits)"
+    },
+    "firstName": {
+      "label": "First Name",
+      "label.optional": "First Name (Optional)",
+      "placeholder": "e.g. Tai Man",
+      "require": "Please input first name"
+    },
+    "lastName": {
+      "label": "Last Name",
+      "label.optional": "Last Name (Optional)",
+      "placeholder": "e.g. Chan",
+      "require": "Please input last name"
+    },
+    "email": {
+      "label": "Email",
+      "label.optional": "Email (Optional)",
+      "placeholder": "e.g. haydenli@gmail.com",
+      "require": "Please enter a valid email"
+    },
+    "apple-email": {
+      "label": "Your apple ID",
+      "label.optional": "Your apple ID (Optional)",
+      "placeholder": "e.g. haydenli@gmail.com",
+      "require": "Please input email"
+    },
+    "passport": {
+      "label": "Passport (first 4 characters)",
+      "label.optional": "Passport (first 4 characters)) (Optional)",
+      "placeholder": "e.g.A111",
+      "require": "Please input passport (first 4 characters)"
+    },
+    "yob": {
+      "label": "Year of Birth",
+      "label.optional": "Year of Birth (Optional)",
+      "placeholder": "e.g.1990",
+      "require": "Please enter your correct year of birth"
+    },
+    "option": {
+      "pickup": "Selected Store",      
+      "pickup_datetime": "Pickup date and time: ",
+      "delivery": "Delivery (Exclusive for specially selected SmarTone Plus members)",
+      "delivery_date" :"Delivery date: "
+    },
+    "recipient": {
+      "placeholder": "e.g. Hayden",
+      "helperText": "Please enter English name"
+    },
+    "contactNumber": {
+      "placeholder": "e.g. 9123XXXX",
+      "helperText": "Please enter a mobile number"
+    },
+    "addressLine1": {
+      "placeholder": "Flat, Floor, Block, Building",
+      "helperText": "Please enter your English address, excluding special characters e.g. -&>*!%"
+    },
+    "addressLine2": {
+      "placeholder": "Estate, Street No., Street Name",
+      "helperText": "Please enter your English address, excluding special characters e.g. -&>*!%"
+    }
+  },
+  "general": {
+    "show-less": "Show less",
+    "show-more": "Show more"
+  },
+  "modal": {
+    "dialog": {
+      "confirm": {
+        "button": {
+          "yes": "Leave",
+          "no": "Stay"
+        }
+      },
+      "alert": {
+        "button": {
+          "ok": "OK"
+        }
+      }
+    }
+  },
+  "locartion": {
+    "change": "change"
+  },
+  "footer": {
+    "summary": {
+      "error": {
+        "select-plan": "Please select a plan"
+      },
+      "iphone-price": "iPhone Price",
+      "applecare": "AppleCare+",
+      "prepayment": "6 months prepayment"
+    },
+    "reminder": {
+      "other-storage": "Looking for other models?",
+      "other-plan": "Looking for other re-contract plans?",
+      "storage-remind-message": "You can {link} to visit regular pre-order site to pre-order other iPhone 14 models, but you will not be able to enjoy “Smart Priority Phone” Pickup Service and free MagSafe Charger.",
+      "plan-remind-message": "You can {link} to visit regular pre-order site to pre-order iPhone 14 and select other service plans when you pick up the phone, but you will not be able to enjoy “Smart Priority Phone” Pickup Service and free MagSafe Charger. ",
+      "time-remind-message": "You could also {link} to visit regular pre-order site to pre-order iPhone 14, but you will not be able to enjoy “Smart Priority Phone” Pickup Service and free MagSafe Charger.",
+      "click-here": "click here",
+      "preorder-redpass": "Are you sure you want to leave this page?",
+      "alert-message": "Once you leave, your selections will not be saved.",
+      "timeslot-not-fit": "“Smart Priority Phone” Pickup Service is only available at the above location, date and time. "
+    },
+    "button": {
+      "continue": "Continue",
+      "confirm": "Confirm"
+    },
+    "note": {
+      "back": "Back",
+      "all-right-reserved": "TM and © {year} Apple Inc. All rights reserved.",
+      "copyright": "Copyright {year}. All rights reserved. SmarTone Mobile Communications Limited."
+    },
+    "select-phone": {
+      "quantity": "{no}",
+      "selected": "{number} iPhone(s) selected",
+      "remark": "You will be notified by email and SMS when your iPhone is ready. Within 48 hours upon receipt of notification, please complete the order via CARE App. ",
+      "remark-voucher": "You will be notified by email and SMS when your iPhone is ready. Within 48 hours upon receipt of notification, please complete the order via CARE App. Your Handset Discount can be applied during checkout. "
+    },
+    "term": {
+      "declare": "I fully understand and accept the below Terms & Conditions:"
+    }
+  },
+  "error": {
+    "system-busy": "System Busy, please try again later.",
+    "handset-no-quota": "The pre-order quota for your selected iPhone model is full, Please select another model.",
+    "magsafe-no-quota": "Sorry, the free MagSafe Charger have all been given away.",
+    "max-reserve-ticket": "The pre-order quota for your selected iPhone model is full, Please select another model.",
+    "info-hkid-not-match": "Year of Birth or HKID/Passport input incorrectly",
+    "info-yob-not-match": "Year of Birth or HKID/Passport input incorrectly",
+    "info-invalid": "Personal infomation is incorrect, please try again.",
+    "retention-invalid": "Change Plan Validation Error"
+  },
+  "step": {
+    "select-model": "Select Model",
+    "collenction-method": "Collection method",
+    "review": "Order Details",
+    "select-pickup-date": {
+      "remark": "If the credit card used for the order payment in next step is not in your name, please ask the credit card holder to download, fill in and sign the Authorisation Form. Please bring all the above items and the copy of the credit card used for the order payment when visiting your selected store.",
+      "remark1": "Please pick up your iPhone at the selected date, timeslot and store.",
+      "remark2": "If you are unable to pick up the phone in person, you can fill in and sign the “Authorisation letter ” to authorise a representative to pick up the phone on your behalf. The authorised person is required to present his/her original HKID/Passport, the original authorisation letter and photocopy of the front side of the credit card or the screen captured image of PayMe / AlipayHK / WeChat Pay HK transaction details used for payment of the pre-order.",
+      "remark3": "If you are unable to pick up the phone at the scheduled date and timeslot, you will be requeued and you will have to contact our WhatsApp Assistant for arrangement. Pickup date is subject to product supply"
+    },
+    "select-delivery-date": {
+      "remark1": "Please contact our 24-hr customer service hotline at 2281 8833 if you have any enquiries on the delivery arrangements"
+    }
+  },
+  "pre-order": {
+    "summary": {
+      "heading": "Collection Method"
+    },
+    "review": {
+      "heading": "Order Details"
+    },
+    "thank-you": {
+      "heading": "Thank You for Your Pre-order",
+      "sub-title": "You will receive a confirmation email and SMS.",
+      "footer": "If you didn’t receive the confirmation email after pre-ordering, please check your spam folder. To ensure you receive important emails from us in the future, please add <a href=\"mailto:comms@service.smartone.com\">comms@service.smartone.com</a> and <a href=\"mailto:advice@comms.smartone.com\">advice@comms.smartone.com</a> to your address book.",
+      "footer2": "Please call 2880 2688 if the issue persists. ",
+      "footer2-whitelist": "Please call 2281 8833 if the issue persists. ",
+      "lead-in": "You will be notified by email and SMS when your iPhone is ready. Within <b>48 hours</b> upon receipt of notification, please schedule to collect your iPhone and complete the order via CARE App, ensuring you can get your iPhone promptly.",
+      "remark": " "
+    }
+  },
+  "discount": "Discount",
+  "collectionMethod": "Collection Method",
+  "select_store": "Select Store",
+  "pickup_at": "Pickup at",
+  "privilege-offers": "Privilege Offers",
+  "delivery-terms": {
+    "term1": "Your iPhone will be unboxed and activated before shipping",
+    "term2": "You will be notified by email and SMS when your iPhone is ready. Within 48 hours upon receipt of notification, please select a delivery date, enter the delivery address and proceed with the payment via CARE App to complete the order.",
+    "term3": "Delivery is not available if you have selected iPhone for Life or instalment plans",
+    "term4": "Delivery districts do not include areas outside the available options.",
+    "term5": "<a href=\"/pdf/iPhone15-Delivery-TC_EN.pdf\" target=\"_blank\">Delivery Service Terms and Conditions</a>"
+  },
+  "voucher": {
+    "max-quota": "You Can Pre-order",
+    "handset-offer": "Handset Discount Offer",
+    "offer-remark": "(Each coupon for 1 handset order)",
+    "quantity": "{no}",
+    "max-quantity": "{number} iPhone(s)",
+    "remark":"All models, except iPhone 15 Pro Max 1TB, are available in stores. No online pre-order required. Your entitled handset discount offer can be applied in stores."
+  },
+  "coupons": {
+    "IP15_HS_$200_Dis": "$200 discount on 1 iPhone",
+    "$500_HSPR23": "$500 discount on 1 iPhone",
+    "IP15_HS_9_Per_Dis": "9% discount on 1 iPhone",
+    "IP15_HS_12_Per_Dis": "12% discount on 1 iPhone",
+    "IP15_HS_5_Per_Dis_01": "5% discount on 1 iPhone",
+    "IP15_HS_5_Per_Dis_02": "5% discount on 1 iPhone",
+    "IP15_HS_5_Per_Dis_03": "5% discount on 1 iPhone",
+    "IP15_HS_7_Per_Dis_01": "7% discount on 1 iPhone",
+    "IP15_HS_7_Per_Dis_02": "7% discount on 1 iPhone",
+    "IP15_HS_7_Per_Dis_03": "7% discount on 1 iPhone",
+    "IP15_Accy_9_Per_Dis": "9% discount on 1 iPhone",
+    "IP15_Accy_12_Per_Dis": "12% discount on 1 iPhone"
+  },
+  "view-map": "View Map",
+  "location-selector": {
+    "heading": "Please select a store for pickup"
+  },
+  "change_store": "Change store",
+  "price": {},
+  "recommended": "Recommanded retail price",
+  "order": "Order",
+  "reference-number": "Order Number:",
+  "review": {
+    "collect-method": {
+      "delivery": {
+        "remark": "The delivery information will be needed to provide when the iPhone is ready to collect"
+      }
+    },
+    "confirm": "Please review and confirm your order."
+  },
+  "district": "District",
+  "handset-discount-offer": "Handset Discount Offer",
+  "free-gift": "Free Gift",
+  "screen-replace": "Screen Replace",
+  "delivery-to": "Recipient’s Information",
+  "add-ons": "Add-on",
+  "pickup-date": "Pickup Date",
+  "pickup-time": "Pickup Timeslot",
+  "recipient": "Recipient",
+  "contact-number": "Contact Number",
+  "delivery-date": "Delivery Date",
+  "delivery-address": "Delivery Address",
+  "please-select": "Please select",
+  "proceed-payment": "Payment",
+  "no-quota-for-delivery": "The delivery service quota is full. Please select in-store pickup",
+  "fulfill": {
+    "order-select": {
+      "title": "Your Pre-Order",
+      "desc": "Please check the status of your pre-ordered iPhone and complete the order.",
+      "reference-no": "Reference number:",
+      "collection-status": "Collection Status"
+    },
+    "review-total":"Total"
+  },
+  "free": "Included",
+  "TS1": "Open - 12:00pm",
+  "TS2": "12:00pm - 2:00pm",
+  "TS3": "2:00 pm - 4:00pm",
+  "TS4": "4:00pm - 7:00pm",
+  "TS5": "7:00pm - Close",
+  "delivery-remark-1": "Your iPhone will be unboxed and activated before shipping",
+  "dont-use": "No Discount Applied",
+  "discount-price": "Discount",
+  "default-pickup-time": "Available Timeslots",
+  "default-pickup-date": "Available Dates",
+  "pay-online-to-enjoy-more": "Pay online now to enjoy more benefits!",
+  "smooth-pickup-orange": "Save more time and pay online now to pick up the phone in store within 15 minutes!",
+  "smooth-pickup": "Pick up in store within 15 minutes to save you time",
+  "proceed-to-payment": "Pay Now",
+  "sales-assisted-payment": "For in-store payment, please click here",
+  "please-paid-for-ip4l-at-store": "If you want to pay at store or apply iPhone for Life, please click here",
+  "pre-ordered-summary": "Pre-ordered Summary",
+  "prepayment": "Service Fee Prepayment",
+  "prepayment-description": "Description. Will rebate xxx per month for the first 3 months mobile plan payment",
+  "confirm": "Confirm",
+  "pay-at-store": "Pay at Store",
+  "pay-online": "Pay Online",
+  "datapass": "FREE 2-day APAC Multi-Day Roaming Data Pack",
+  "sales-assisted-payment-iphone4life": "You have selected iPhone for Life, please visit our stores to proceed with the payment",
+  "you-have-selected-iphone-for-life-please-visit-our-stores-to-proceed-with-the-payment": "You have selected iPhone for Life, please visit our stores to proceed with the payment",
+  "reminder": "Reminder",
+  "reminder-msg-online": "The online payment exclusive offer - FREE 2-day APAC Multi-Day Roaming Data Pack is not available for payments made in stores. If you are unable to pick up the phone and pay in store at the scheduled date and timeslot, you will be requeued automatically. Pickup date is subject to product supply and you will have to contact our WhatsApp Assistant.\n\nWe recommend paying online to save time and ensure you can get your iPhone promptly.",
+  "reminder-msg-offline": "If you are unable to pick up the phone and pay at store at the scheduled date and timeslot, you will be requeued automatically. Pickup date is subject to product supply and you will have to contact our WhatsApp Assistant.\n\nWe recommend paying online to save time and ensure you can get your iPhone promptly."
+}
